@@ -1,6 +1,6 @@
 const locationForm = document.getElementById("location_form")
 const weatherInput = document.getElementById("location")
-KEY = "**************"
+KEY = "12e944034ac0209fc552d13c52d70eb8"
 
 locationForm.addEventListener('submit',(e) => {
     e.preventDefault()
