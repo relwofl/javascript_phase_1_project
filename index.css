@@ -1,3 +1,21 @@
-body {
-    background-color: lightblue
+
+* body {
+    background-color: lightblue;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.input{
+    text-align: center;
+    margin: 25px;
+}
+ul {
+    list-style-type: none;
+  }
+h1 {
+    text-align: center;
+    margin: 25px;
 }
