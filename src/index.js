@@ -1,6 +1,6 @@
 const locationForm = document.getElementById("location_form")
 const weatherInput = document.getElementById("location")
-KEY = "12e944034ac0209fc552d13c52d70eb8"
+KEY = "********************"
 
 locationForm.addEventListener('submit',(e) => {
     e.preventDefault()
@@ -30,7 +30,7 @@ function renderWeather(weather) {
         liTag.remove()
     })
 
-    btn1.addEventListener('click', () => { 
+    btn1.addEventListener('mouseenter', () => { 
         const pTag3 = document.createElement('p')
         pTag3.innerText = weather.wind.speed + " MPH"
         if(liTag.childElementCount >=6){
